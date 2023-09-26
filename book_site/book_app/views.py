@@ -21,7 +21,7 @@ def addBook(request):
         print(mn, bn, c, t )
 
         book=Book()
-        book. book_member_name = mn
+        book.book_member_name = mn
         book.book_name = bn
         book.charge = c
         book.transiction = t
